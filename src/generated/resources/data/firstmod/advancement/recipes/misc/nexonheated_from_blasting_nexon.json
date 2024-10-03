@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:nexonheated_from_blasting_nexon"
+        "recipe": "firstmod:nexonheated_from_blasting_nexon"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:nexonheated_from_blasting_nexon"
+      "firstmod:nexonheated_from_blasting_nexon"
     ]
   }
 }
