@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> NEXON_ORE_BLOCK = registerBlock("nexon_ore_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    public static final RegistryObject<Block> NEXON_BLOCK = registerBlock("nexon_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

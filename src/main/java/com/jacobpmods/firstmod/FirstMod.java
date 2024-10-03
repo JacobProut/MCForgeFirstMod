@@ -63,6 +63,7 @@ public class FirstMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.NEXON_ORE_BLOCK);
+            event.accept(ModBlocks.NEXON_BLOCK);
         }
 
     }
