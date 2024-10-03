@@ -1,0 +1,7 @@
+{
+  "values": [
+    "firstmod:nexon_ore_block",
+    "firstmod:nexon_block",
+    "#forge:needs_netherite_tool"
+  ]
+}
