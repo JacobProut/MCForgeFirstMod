@@ -1,3 +1,7 @@
-// 1.21	2024-10-03T17:37:36.7246007	Tags for minecraft:block mod id firstmod
+// 1.21	2024-10-03T17:53:29.0564987	Tags for minecraft:block mod id firstmod
 9c0976d616eaffd5368f6483f3e8fee0a1f6bab7 data/forge/tags/block/needs_netherite_tool.json
+f32d343c33adddc0aefe9a226e96022e0d858f04 data/minecraft/tags/block/incorrect_for_diamond_tool.json
+f32d343c33adddc0aefe9a226e96022e0d858f04 data/minecraft/tags/block/incorrect_for_gold_tool.json
+f32d343c33adddc0aefe9a226e96022e0d858f04 data/minecraft/tags/block/incorrect_for_iron_tool.json
+f32d343c33adddc0aefe9a226e96022e0d858f04 data/minecraft/tags/block/incorrect_for_wooden_tool.json
 d470af2c7f503fc762304910570a429016d6305a data/minecraft/tags/block/mineable/pickaxe.json
