@@ -3,9 +3,7 @@ package com.jacobpmods.firstmod.item;
 import com.jacobpmods.firstmod.FirstMod;
 import com.jacobpmods.firstmod.item.custom.speedapple;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,6 +25,21 @@ public class ModItems {
             () -> new PickaxeItem(ModToolTiers.NEXON, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.NEXON,1.0F, -2.8F))));
 
+    public static final RegistryObject<Item> nexonshovel = ITEMS.register("nexonshovel",
+            () -> new ShovelItem(ModToolTiers.NEXON, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.NEXON,1.5F, -3.0F))));
+
+    public static final RegistryObject<Item> nexonhoe = ITEMS.register("nexonhoe",
+            () -> new HoeItem(ModToolTiers.NEXON, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.NEXON,0, -3.0F))));
+
+    public static final RegistryObject<Item> nexonsword = ITEMS.register("nexonsword",
+            () -> new SwordItem(ModToolTiers.NEXON, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.NEXON,3, -2.4F))));
+
+    public static final RegistryObject<Item> nexonaxe = ITEMS.register("nexonaxe",
+            () -> new SwordItem(ModToolTiers.NEXON, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.NEXON,6, -3.2F))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

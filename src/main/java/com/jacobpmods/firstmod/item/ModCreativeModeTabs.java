@@ -21,10 +21,15 @@ public class ModCreativeModeTabs {
                        output.accept(ModItems.nexon.get());
                        output.accept(ModItems.nexonheated.get());
                        output.accept(ModItems.nexoningot.get());
+                       output.accept(ModItems.nexonreinforcedingot.get());
                        output.accept(ModBlocks.NEXON_BLOCK.get());
                        output.accept(ModBlocks.NEXON_ORE_BLOCK.get());
                        output.accept(ModItems.nexonpickaxe.get());
-                       output.accept(ModItems.nexonreinforcedingot.get());
+                       output.accept(ModItems.nexonhoe.get());
+                       output.accept(ModItems.nexonshovel.get());
+                       output.accept(ModItems.nexonsword.get());
+                       output.accept(ModItems.nexonaxe.get());
+
 
 
                     }).build());

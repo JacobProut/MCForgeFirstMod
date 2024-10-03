@@ -27,6 +27,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.nexonreinforcedingot.get());
 
         handheldItem(ModItems.nexonpickaxe);
+        handheldItem(ModItems.nexonhoe);
+        handheldItem(ModItems.nexonshovel);
+        handheldItem(ModItems.nexonsword);
+        handheldItem(ModItems.nexonaxe);
+
+
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
