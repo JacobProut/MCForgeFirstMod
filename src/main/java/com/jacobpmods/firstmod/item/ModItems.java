@@ -1,6 +1,8 @@
 package com.jacobpmods.firstmod.item;
 
 import com.jacobpmods.firstmod.FirstMod;
+import com.jacobpmods.firstmod.item.custom.speedapple;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,7 +13,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
 
-    public static final RegistryObject<Item> speedapple = ITEMS.register("speedapple", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> speedapple = ITEMS.register("speedapple", () -> new speedapple(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationModifier(0.3F).build())));
     public static final RegistryObject<Item> fireball = ITEMS.register("throwablefireball", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> nexon = ITEMS.register("nexon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> nexoningot = ITEMS.register("nexoningot", () -> new Item(new Item.Properties()));
