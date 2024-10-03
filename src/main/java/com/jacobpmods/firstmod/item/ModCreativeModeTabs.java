@@ -18,6 +18,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("Jacobs Modded Items")).displayItems((itemDisplayParameters, output) -> {
                        output.accept(ModItems.speedapple.get());
                        output.accept(ModItems.fireball.get());
+                       output.accept(ModItems.nexon.get());
+                       output.accept(ModItems.nexoningot.get());
                        output.accept(ModBlocks.NEXON_BLOCK.get());
                        output.accept(ModBlocks.NEXON_ORE_BLOCK.get());
 

@@ -62,6 +62,8 @@ public class FirstMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.speedapple);
             event.accept(ModItems.fireball);
+            event.accept(ModItems.nexon);
+            event.accept(ModItems.nexoningot);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
