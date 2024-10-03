@@ -1,6 +1,7 @@
 package com.jacobpmods.firstmod;
 
 import com.jacobpmods.firstmod.block.ModBlocks;
+import com.jacobpmods.firstmod.item.ModCreativeModeTabs;
 import com.jacobpmods.firstmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,6 +38,8 @@ public class FirstMod {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
