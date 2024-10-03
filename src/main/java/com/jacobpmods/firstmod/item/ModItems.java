@@ -16,6 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> nexon = ITEMS.register("nexon", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> nexoningot = ITEMS.register("nexoningot", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> nexonheated = ITEMS.register("nexonheated", () -> new Item(new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

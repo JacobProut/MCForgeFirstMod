@@ -64,6 +64,7 @@ public class FirstMod {
             event.accept(ModItems.fireball);
             event.accept(ModItems.nexon);
             event.accept(ModItems.nexoningot);
+            event.accept(ModItems.nexonheated);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
