@@ -10,8 +10,6 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> NEEDS_NETHERITE_TOOL = createTag("needs_netherite_tool");
-        public static final TagKey<Block> INCORRECT_FOR_NETHERITE_TOOL = createTag("incorrect_for_netherite_tool");
         public static final TagKey<Block> NEEDS_NEXON_TOOL = createTag("needs_nexon_tool");
         public static final TagKey<Block> INCORRECT_FOR_NEXON_TOOL = createTag("incorrect_for_netherite_tool");
 

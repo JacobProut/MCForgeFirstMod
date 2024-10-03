@@ -2,6 +2,7 @@ package com.jacobpmods.firstmod.datagen;
 
 import com.jacobpmods.firstmod.FirstMod;
 import com.jacobpmods.firstmod.block.ModBlocks;
+import com.jacobpmods.firstmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -10,6 +11,10 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
+
+import static net.minecraft.tags.BlockTags.INCORRECT_FOR_DIAMOND_TOOL;
+import static net.minecraft.tags.BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
+import static net.minecraftforge.common.Tags.Blocks.NEEDS_NETHERITE_TOOL;
 
 public class ModBlockTagProvider extends BlockTagsProvider {
     public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
@@ -21,6 +26,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.NEXON_BLOCK.get())
                 .add(ModBlocks.NEXON_ORE_BLOCK.get());
+
+
+        tag(NEEDS_NETHERITE_TOOL)
+                .add(ModBlocks.NEXON_ORE_BLOCK.get())
+                .add(ModBlocks.NEXON_BLOCK.get())
+                .addTag(NEEDS_NETHERITE_TOOL);
 
     }
 }
