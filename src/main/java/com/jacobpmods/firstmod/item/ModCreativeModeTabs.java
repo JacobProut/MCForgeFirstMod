@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                        output.accept(ModItems.nexoningot.get());
                        output.accept(ModBlocks.NEXON_BLOCK.get());
                        output.accept(ModBlocks.NEXON_ORE_BLOCK.get());
+                       output.accept(ModItems.nexonpickaxe.get());
 
                     }).build());
 
