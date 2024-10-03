@@ -1,5 +1,6 @@
 package com.jacobpmods.firstmod;
 
+import com.jacobpmods.firstmod.block.ModBlocks;
 import com.jacobpmods.firstmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -38,6 +39,7 @@ public class FirstMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -58,6 +60,11 @@ public class FirstMod {
             event.accept(ModItems.speedapple);
             event.accept(ModItems.fireball);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.NEXON_ORE_BLOCK);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

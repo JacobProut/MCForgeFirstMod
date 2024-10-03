@@ -1,4 +1,6 @@
 {
   "item.firstmod.speedapple": "Speed Apple",
-  "item.firstmod.throwablefireball": "Fire Ball"
+  "item.firstmod.throwablefireball": "Fire Ball",
+
+  "block.firstmod.nexon_ore_block": "Nexon Ore Block"
 }
