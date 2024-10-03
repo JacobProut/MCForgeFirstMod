@@ -12,8 +12,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-import static net.minecraft.tags.BlockTags.INCORRECT_FOR_DIAMOND_TOOL;
-import static net.minecraft.tags.BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
+import static net.minecraft.tags.BlockTags.*;
 import static net.minecraftforge.common.Tags.Blocks.NEEDS_NETHERITE_TOOL;
 
 public class ModBlockTagProvider extends BlockTagsProvider {
@@ -33,5 +32,24 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.NEXON_BLOCK.get())
                 .addTag(NEEDS_NETHERITE_TOOL);
 
+        tag(INCORRECT_FOR_DIAMOND_TOOL)
+                .add(ModBlocks.NEXON_ORE_BLOCK.get())
+                .add(ModBlocks.NEXON_BLOCK.get());
+
+        tag(INCORRECT_FOR_IRON_TOOL)
+                .add(ModBlocks.NEXON_ORE_BLOCK.get())
+                .add(ModBlocks.NEXON_BLOCK.get());
+
+        tag(INCORRECT_FOR_GOLD_TOOL)
+                .add(ModBlocks.NEXON_ORE_BLOCK.get())
+                .add(ModBlocks.NEXON_BLOCK.get());
+
+        tag(INCORRECT_FOR_STONE_TOOL)
+                .add(ModBlocks.NEXON_ORE_BLOCK.get())
+                .add(ModBlocks.NEXON_BLOCK.get());
+
+        tag(INCORRECT_FOR_WOODEN_TOOL)
+                .add(ModBlocks.NEXON_ORE_BLOCK.get())
+                .add(ModBlocks.NEXON_BLOCK.get());
     }
 }
