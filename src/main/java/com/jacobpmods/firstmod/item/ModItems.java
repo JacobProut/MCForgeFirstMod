@@ -21,6 +21,8 @@ public class ModItems {
     public static final RegistryObject<Item> nexoningot = ITEMS.register("nexoningot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> nexonheated = ITEMS.register("nexonheated", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> nexonreinforcedingot = ITEMS.register("nexonreinforcedingot", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> nexonpickaxe = ITEMS.register("nexonpickaxe",
             () -> new PickaxeItem(ModToolTiers.NEXON, new Item.Properties()
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.NEXON,1.0F, -2.8F))));
