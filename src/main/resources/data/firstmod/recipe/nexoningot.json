@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "firstmod:nexoningot"
+      "item": "firstmod:nexonheated"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "firstmod:nexon_block"
+    "id": "firstmod:nexoningot"
   }
 }

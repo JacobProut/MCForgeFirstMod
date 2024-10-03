@@ -4,11 +4,9 @@
   "cookingtime": 200,
   "experience": 0.30,
   "group": "nexon",
-  "ingredients": [
-    {
+  "ingredient": {
       "item": "firstmod:nexon"
-    }
-  ],
+  },
   "result": {
     "id": "firstmod:nexonheated"
   }
