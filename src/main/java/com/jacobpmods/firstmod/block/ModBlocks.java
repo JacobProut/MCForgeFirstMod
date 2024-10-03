@@ -2,9 +2,11 @@ package com.jacobpmods.firstmod.block;
 
 import com.jacobpmods.firstmod.FirstMod;
 import com.jacobpmods.firstmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,12 +19,12 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, FirstMod.MOD_ID);
 
-
-    public static final RegistryObject<Block> NEXON_ORE_BLOCK = registerBlock("nexon_ore_block", () -> new Block(BlockBehaviour.Properties.of()
-            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
-
     public static final RegistryObject<Block> NEXON_BLOCK = registerBlock("nexon_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER)));
+
+    public static final RegistryObject<Block> NEXON_ORE_BLOCK = registerBlock("nexon_ore_block",
+            () -> new DropExperienceBlock(UniformInt.of(3, 5), BlockBehaviour.Properties.of()
+            .strength(5f, 1200.0f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
