@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nexonreinforcedingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "firstmod:nexonreinforcedingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "firstmod:nexonpickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nexonreinforcedingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "firstmod:nexonpickaxe"
+    ]
+  }
+}
