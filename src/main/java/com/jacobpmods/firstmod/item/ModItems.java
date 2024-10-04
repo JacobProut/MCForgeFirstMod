@@ -2,6 +2,7 @@ package com.jacobpmods.firstmod.item;
 
 import com.jacobpmods.firstmod.FirstMod;
 import com.jacobpmods.firstmod.item.custom.speedapple;
+import com.jacobpmods.firstmod.item.custom.tools.NexonAxe;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -38,8 +39,8 @@ public class ModItems {
                     .attributes(SwordItem.createAttributes(ModToolTiers.NEXON,3, -2.4F))));
 
     public static final RegistryObject<Item> nexonaxe = ITEMS.register("nexonaxe",
-            () -> new SwordItem(ModToolTiers.NEXON, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.NEXON,6, -3.2F))));
+            () -> new NexonAxe(ModToolTiers.NEXON, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.NEXON,6, -3.2F))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
