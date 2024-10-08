@@ -4,7 +4,6 @@ import com.jacobpmods.firstmod.block.ModBlocks;
 import com.jacobpmods.firstmod.item.ModCreativeModeTabs;
 import com.jacobpmods.firstmod.item.ModItems;
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -40,10 +39,8 @@ public class FirstMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModCreativeModeTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -73,6 +70,8 @@ public class FirstMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.NEXON_ORE_BLOCK);
             event.accept(ModBlocks.NEXON_BLOCK);
+            event.accept(ModBlocks.GHOSTLY_GRASS_BLOCK);
+
         }
 
     }

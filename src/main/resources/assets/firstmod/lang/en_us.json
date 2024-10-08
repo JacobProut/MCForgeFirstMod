@@ -14,8 +14,11 @@
 
 
 
+  "enchantment.firstmod.magma_mine": "Magma Mine",
 
 
   "block.firstmod.nexon_ore_block": "Nexon Ore Block",
-  "block.firstmod.nexon_block": "Nexon Block"
+  "block.firstmod.nexon_block": "Nexon Block",
+  "block.firstmod.ghostly_grass_block": "Ghostly Grass Block",
+  "block.firstmod.ghostly_grass_top": "Ghostly Grass Top"
 }

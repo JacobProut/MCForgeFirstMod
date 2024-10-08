@@ -1,6 +1,8 @@
-// 1.21	2024-10-03T13:33:01.8665167	Block States: firstmod
+// 1.21	2024-10-08T15:15:30.9647553	Block States: firstmod
+ef3e145001e6bf1c940134c903f9a445f544eda4 assets/firstmod/blockstates/ghostly_grass_block.json
 317f69166128569fa64f769cd3844669b4a87cd3 assets/firstmod/blockstates/nexon_block.json
 0e7cf68d60e0b06c87231746c12ed51915f44dac assets/firstmod/blockstates/nexon_ore_block.json
+56f753b1fe7f4548ed939055c94ae8507e0e2f0c assets/firstmod/models/block/ghostly_grass_block.json
 250de17796995529d016fc857b3fd379e069af0a assets/firstmod/models/block/nexon_block.json
 f9712874f38ed4735dbd09483a26be6d199c01f9 assets/firstmod/models/block/nexon_ore_block.json
 e6b89d77e4369a10e719ef1e1c45c609b57933b5 assets/firstmod/models/item/nexon_block.json

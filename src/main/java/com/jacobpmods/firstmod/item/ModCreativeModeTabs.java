@@ -30,6 +30,9 @@ public class ModCreativeModeTabs {
                        output.accept(ModItems.nexonsword.get());
                        output.accept(ModItems.nexonaxe.get());
 
+                       output.accept(ModBlocks.GHOSTLY_GRASS_BLOCK.get());
+
+
 
 
                     }).build());
