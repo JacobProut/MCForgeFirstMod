@@ -1,7 +1,7 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "firstmod:block/ghostly_grass_top",
+    "down": "firstmod:block/ghostly_dirt",
     "up": "firstmod:block/ghostly_grass_top",
     "north": "firstmod:block/ghostly_grass_block",
     "south": "firstmod:block/ghostly_grass_block",
