@@ -71,6 +71,7 @@ public class FirstMod {
             event.accept(ModBlocks.NEXON_ORE_BLOCK);
             event.accept(ModBlocks.NEXON_BLOCK);
             event.accept(ModBlocks.GHOSTLY_GRASS_BLOCK);
+            event.accept(ModBlocks.GHOSTLY_DIRT);
 
         }
 

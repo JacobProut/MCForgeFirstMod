@@ -18,10 +18,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.NEXON_BLOCK);
         blockWithItem(ModBlocks.NEXON_ORE_BLOCK);
-        //blockWithItem(ModBlocks.GHOSTLY_GRASS_BLOCK);
-        simpleBlock(ModBlocks.GHOSTLY_GRASS_BLOCK.get(), models().cubeAll("ghostly_grass_block",
-                modLoc("block/ghostly_grass_block"))); // Ensure the texture exists
-
+        blockWithItem(ModBlocks.GHOSTLY_GRASS_BLOCK);
+        blockWithItem(ModBlocks.GHOSTLY_DIRT);
 
     }
 

@@ -1,9 +1,13 @@
-// 1.21	2024-10-08T15:15:30.9647553	Block States: firstmod
+// 1.21	2024-10-08T16:51:43.1501554	Block States: firstmod
+6a61c737442b3f4c2f3f891f7fd5adf71455a6a4 assets/firstmod/blockstates/ghostly_dirt.json
 ef3e145001e6bf1c940134c903f9a445f544eda4 assets/firstmod/blockstates/ghostly_grass_block.json
 317f69166128569fa64f769cd3844669b4a87cd3 assets/firstmod/blockstates/nexon_block.json
 0e7cf68d60e0b06c87231746c12ed51915f44dac assets/firstmod/blockstates/nexon_ore_block.json
+4c650cf46f5bb957e59f155504de612154973a06 assets/firstmod/models/block/ghostly_dirt.json
 56f753b1fe7f4548ed939055c94ae8507e0e2f0c assets/firstmod/models/block/ghostly_grass_block.json
 250de17796995529d016fc857b3fd379e069af0a assets/firstmod/models/block/nexon_block.json
 f9712874f38ed4735dbd09483a26be6d199c01f9 assets/firstmod/models/block/nexon_ore_block.json
+9abe30ab6a271e8c4fc5bcc926d629b53abeb1a7 assets/firstmod/models/item/ghostly_dirt.json
+44ff743d3a1d4a5e4e5f26e8f426eeb3aca70d8d assets/firstmod/models/item/ghostly_grass_block.json
 e6b89d77e4369a10e719ef1e1c45c609b57933b5 assets/firstmod/models/item/nexon_block.json
 df9f48fb0b7a5625c52741692d28b3aadcb97911 assets/firstmod/models/item/nexon_ore_block.json

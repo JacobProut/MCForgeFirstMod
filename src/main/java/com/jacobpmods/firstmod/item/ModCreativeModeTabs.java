@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                        output.accept(ModItems.nexonaxe.get());
 
                        output.accept(ModBlocks.GHOSTLY_GRASS_BLOCK.get());
+                       output.accept(ModBlocks.GHOSTLY_DIRT.get());
 
 
 
