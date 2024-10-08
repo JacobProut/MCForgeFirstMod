@@ -64,6 +64,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.nexonreinforcedingot.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.nexonreinforcedingot.get()), has(ModItems.nexonreinforcedingot.get())).save(pRecipeOutput);
+
+        //Speed apple
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.speedapple.get(), 1)
+                .pattern("SSS")
+                .pattern("SAS")
+                .pattern("SSS")
+                .define('A', Items.APPLE)
+                .define('S', Items.SUGAR)
+                .unlockedBy(getHasName(Items.APPLE), has(Items.APPLE)).save(pRecipeOutput);
     }
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTIme, String pGroup) {
