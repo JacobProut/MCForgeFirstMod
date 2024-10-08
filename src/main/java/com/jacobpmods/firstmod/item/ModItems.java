@@ -1,7 +1,7 @@
 package com.jacobpmods.firstmod.item;
 
 import com.jacobpmods.firstmod.FirstMod;
-import com.jacobpmods.firstmod.item.custom.speedapple;
+import com.jacobpmods.firstmod.item.custom.food.speedapple;
 import com.jacobpmods.firstmod.item.custom.tools.NexonAxe;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
@@ -40,9 +40,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> nexonaxe = ITEMS.register("nexonaxe",
             () -> new NexonAxe(ModToolTiers.NEXON, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.NEXON,6, -3.2F))));
+                    .attributes(NexonAxe.createAttributes(ModToolTiers.NEXON,6, -3.2F))));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
+        System.out.println("ModItems registered: " + nexonpickaxe.getId());
     }
+
 }
