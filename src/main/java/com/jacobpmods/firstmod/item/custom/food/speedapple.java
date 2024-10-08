@@ -1,4 +1,4 @@
-package com.jacobpmods.firstmod.item.custom;
+package com.jacobpmods.firstmod.item.custom.food;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
